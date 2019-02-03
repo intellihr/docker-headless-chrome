@@ -1,7 +1,7 @@
 #
 # First Stage
 #
-FROM alpine:edge AS pre
+FROM alpine:3.8 AS pre
 
 LABEL maintainer="intelliHR Support <support@intellihr.com.au>"
 ENV REFRESHED_AT 2018-09-05
