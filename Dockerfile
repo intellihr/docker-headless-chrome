@@ -14,7 +14,7 @@ RUN unzip NotoSansCJKjp-hinted.zip
 #
 # Second Stage
 #
-FROM node:10-alpine
+FROM node:12.22.8-alpine3.14
 
 COPY --from=pre /tmp/*.otf /usr/share/fonts/noto/
 
