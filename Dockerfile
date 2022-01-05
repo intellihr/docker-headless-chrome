@@ -4,7 +4,7 @@
 FROM alpine:3.8 AS pre
 
 LABEL maintainer="intelliHR Support <support@intellihr.com.au>"
-ENV REFRESHED_AT 2018-09-05
+ENV REFRESHED_AT 2022-01-05
 
 WORKDIR /tmp
 RUN apk add --update make gcc g++ python curl yarn
